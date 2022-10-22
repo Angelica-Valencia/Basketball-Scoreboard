@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scrimba Course-JS-Basketball Scoreboard App</title>
+
+    <!-- CSS -->
+
+    <link rel ="stylesheet" href="assets/css/style.css">
+
+    <!-- JS (Deferred -->
+    <script src="assets/js/board-logic.js" defer></script>
+
+    <!--
+    Filename: index.html
+    Project:  Scrimba Course-JS-Basketball Scoreboard App
+    Author:   Angelica Valencia <20088099@tafe.wa.edu.au>
+    Created:  19/10/2022
+    Version:  ...
+    -->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="home-container">
+            <h3 class="home-label">HOME</h3>
+            <p id="home-board" class="home-screen">0</p>
+            <div class="button-section">
+                <button id="add1-home">+1</button>
+                <button id="add2-home">+2</button>
+                <button id="add3-home">+3</button>
+            </div>
+        </div>
+        <div class="time-container">
+            <button id="control-btn" class="ctr-btn">Start Game</button>
+            <p class="time-label" id="game-label">Timer:</p>
+            <p id="timer-clock" class="clock">clock here</p>
+        </div>
+        <div class="guest-container">
+            <h3 class="guest-label">GUEST</h3>
+            <p id="guest-board" class="guest-screen">0</p>
+            <div class="button-section">
+                <button id="add1-guest">+1</button>
+                <button id="add2-guest">+2</button>
+                <button id="add3-guest">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
