@@ -57,6 +57,7 @@ button {
     border-style: dashed;
     background-color: #5BC0BE;
     color: #EFC7C2;
+    width: 30%;
 }
 
 button:active{
