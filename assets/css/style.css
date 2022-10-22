@@ -11,8 +11,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 25%;
-    height: 27%;
+    min-width: 350px;
+    min-height: 206px;
     margin: auto;
     background-color: #5BC0BE;
     border-radius: 20px;
