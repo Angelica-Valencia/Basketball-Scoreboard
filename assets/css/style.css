@@ -29,10 +29,9 @@ body {
     color: white;
 }
 
-.time-label, .clock, .home-label, .home-screen, .guest-label, .guest-screen{
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.home-label, .guest-label{
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .home-screen, .guest-screen{
@@ -42,6 +41,10 @@ body {
     color: white;
     font-style: normal;
     font-size: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .button-section{
